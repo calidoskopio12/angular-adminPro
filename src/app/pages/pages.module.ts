@@ -13,6 +13,7 @@ import { PagesComponent } from './pages.component';
 //Modulos
 import { SharedModule } from '../shared/shared.module';
 import { ComponentesModule } from '../components/componentes.module';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +21,14 @@ import { ComponentesModule } from '../components/componentes.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingComponent,
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingComponent,
   ],
   imports: [
     CommonModule,
