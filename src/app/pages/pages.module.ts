@@ -14,6 +14,8 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentesModule } from '../components/componentes.module';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     Grafica1Component,
     PagesComponent,
     AccountSettingComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   exports: [
     DashboardComponent,
